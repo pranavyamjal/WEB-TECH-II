@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+</head>
+<body>
+
+    <?php 
+    if(isset($_POST['submit']))
+    {
+        $age = $_POST['age'];
+        $fname = $_POST['fname'];
+        $lname = $_POST['lname'];
+        $add = $_POST['add'];
+        $s = $_POST['a'];
+
+        if($age == "" or $fname == "" or $lname == "" or $add == "" or $s == "")
+        {
+            echo "All Fields are compulsory!!";
+        }
+    }
+    ?>
+
+    <form action="formvalid.php" method="POST">
+        First Name: <input name="fname" type="text"><br>
+        Age: <input name="age" type="text"><br>
+        Last Name: <input name="lname" type="text"><br>
+        Address: <textarea name="add" rows="4" cols="40"></textarea><br>
+        What is your current salary?
+        <select name="sal">
+            <option value="0">Under 1000</option>
+            <option value="1">1000 - 2000</option>
+            <option value="2">2000 - 10000</option>
+        </select><br>
+        Your Sex:
+        Male<input name="a" type="radio">
+        Female<input name="a" type="radio"><br><br>
+
+        <input type="submit" name="submit" value="Submit">
+    </form>
+
+</body>
+</html>

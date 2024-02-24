@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <table>
+        <name>Table 1</name>
+        <description>This is the first table.</description>
+        <count>5</count>
+    </table>
+    <table>
+        <name>Table 2</name>
+        <description>Another table with data.</description>
+        <count>10</count>
+    </table>
+    <table>
+        <name>Table 3</name>
+        <description>Yet another table.</description>
+        <count>7</count>
+    </table>
+</data>

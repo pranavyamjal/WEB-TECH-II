@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation 2</title>
+</head>
+<body>
+    
+
+
+    <form action="form2.php" method="post">
+        Name: <input type="text" name="name" value="<?= $name ?>"/><br>
+        Status: <input type="checkbox" name="status" value="active"
+        <?php
+                if ($status == 'active') 
+                {
+                    echo 'checked';
+                }
+                ?>/> Active <br>
+        Media: <select name ="mtype">
+                <option value="">Choose One</option>
+                <option value="Picture" <?php media_select('Picture')?>>
+                    Picture
+                </option>
+                <option value="audio" <?php media_select('audio')?>>
+                    Audio
+                </option>
+                <option value="movie" <?php media_select('movie')?>>
+                    Movie
+                </option>
+            </select>
+
+        File: <input type="text" name="filename" value="<?= $filename?>" /><br>
+
+        Caption: <textarea name="caption"><?= $caption ?></textarea><br>
+        <input type="hidden" name="tried" value="yes"/>
+        <input type="submit" value="<?php echo $tried ? 'Continue' : 'Create'; ?>"/>
+    </form>
+
+</body>
+</html>
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+
+<books>
+    <book>
+        <bookcode>computer</bookcode>
+        <bname>PHP</bname>
+        <author>version</author>
+        <pub>Vision Publications</pub>
+        <price>120</price>
+    </book>
+</books>
+

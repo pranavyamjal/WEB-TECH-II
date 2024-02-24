@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<films>
+    <film>
+        <FilmNo>1</FilmNo>
+        <FilmName>Movie 1</FilmName>
+        <Director>Director 1</Director>
+        <Producer>Producer 1</Producer>
+        <ReleaseYear>2022</ReleaseYear>
+        <Actor>Actor 1</Actor>
+        <Budget>1000000</Budget>
+    </film>
+    <film>
+        <FilmNo>2</FilmNo>
+        <FilmName>Movie 2</FilmName>
+        <Director>Director 2</Director>
+        <Producer>Producer 2</Producer>
+        <ReleaseYear>2023</ReleaseYear>
+        <Actor>Actor 2</Actor>
+        <Budget>1500000</Budget>
+    </film>
+    <!-- Additional film entries if needed -->
+</films>

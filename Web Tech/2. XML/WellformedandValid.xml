@@ -1,0 +1,8 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE Client SYSTEM "http://www.examplehtml/DTD/Client.dtd">
+<progs>
+    <prog>PHP</prog>
+    <prog>C++</prog>
+</progs>
+
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employees>
+    <employee>
+        <emp_no>1</emp_no>
+        <emp_name>John Doe</emp_name>
+        <salary>50000</salary>
+        <designation>Software Engineer</designation>
+    </employee>
+    <employee>
+        <emp_no>2</emp_no>
+        <emp_name>Jane Smith</emp_name>
+        <salary>60000</salary>
+        <designation>Senior Developer</designation>
+    </employee>
+    <!-- Additional employee entries if needed -->
+</employees>

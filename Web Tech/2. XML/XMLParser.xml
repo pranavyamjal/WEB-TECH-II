@@ -1,0 +1,12 @@
+<?xml version = "1.0" ?>
+ <user>
+        <firstname>XYZ</firstname>
+        <suraname>PQR</suraname>
+        <address>100</address>
+
+    <contact>
+      <phone>4444</phone>
+      <url>http://hello.org</url>
+      <email>xyz@prq.com</email>
+    </contact>
+  </user>

@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<items>
+    <item>
+        <Ino>1</Ino>
+        <Iname>Dove</Iname>
+        <Idesc>Shampoo</Idesc>
+        <Price>100</Price>
+    </item>
+
+    <item>
+        <Ino>2</Ino>
+        <Iname>Pears</Iname>
+        <Idesc>Facewash</Idesc>
+        <Price>150</Price>
+    </item>
+</items>

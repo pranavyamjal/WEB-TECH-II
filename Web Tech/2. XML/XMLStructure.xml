@@ -1,0 +1,16 @@
+<?xml version ="1.0" endcoding="UTF-8" ?>
+ <bookstore>
+   <book category="SCIENCE">
+        <title lang ="en">DiscoverIndia</title>
+        <author>Gayatridevi</author>
+        <year>2005</year>
+        <price>2999</price>
+    <book>
+
+   <book category="TravelLiving">
+        <title lang="en"> Asiancultures</title>
+        <author>Satyajitray</author>
+        <year>2005</year>
+        <price>2999</price>
+    </book>
+ <bookstore>
